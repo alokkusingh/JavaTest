@@ -1,8 +1,7 @@
 package alok.test.exception;
 
 class MyException extends RuntimeException {
-	
-	@Override
+
 	MyException(String str) {
 		
 	}
