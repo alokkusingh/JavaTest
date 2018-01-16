@@ -42,7 +42,9 @@ class Queue {
 	}
 	
 	public String toString() {
-		StringBuffer str = new StringBuffer("[");
+		//Dont use StringBuffer as the mentods are synchronised and in this cans we dont need thread safe call
+		//StringBuffer str = new StringBuffer("[");
+		StringBuilder str = new StringBuilder("[");
 		
 		for (int i = front, j = 0; j < size; i = (i + 1) % MAXSIZE, ++j) {
 			str.append(queue[i] + ", ");
