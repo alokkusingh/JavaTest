@@ -46,18 +46,15 @@ class List {
 	}
 
 	public Node getLastThirdNode() {
-		
+
+		Node curr = head;
+
 		try {
-			if (head.next().next() == null) {
-				return null;
+			while (curr.next().next().next() != null) {
+				curr = curr.next();
 			}
 		} catch (NullPointerException exp) {
 			return null;
-		}
-
-		Node curr = head;
-		while (curr.next().next().next() != null) {
-			curr = curr.next();
 		}
 
 		return curr;
