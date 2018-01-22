@@ -1,4 +1,4 @@
-package alok.test.algo.queue;
+package alok.test.ds.queue;
 
 import java.util.Arrays;
 
