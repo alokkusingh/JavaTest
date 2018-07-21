@@ -1,41 +1,52 @@
+package alok.test;
 
+import java.util.Arrays;
 
 public class ArrangeNumbers {
-    static int[] arr = new int[] {1,2,4,6,3,9,5,8,7};
+	
 
-    static void arrange(int[] arr) {
-        if (arr == null) {
-            return;
-        }
+	static void arrange(int[] arr) {
+		if (arr == null) {
+			return;
+		}
 
-        for (int i = 0, j = arr.length - 1; i < j;) {
-            boolean iOddPlace = false;
-            boolean jOddPlace = false;
+		for (int i = 0, j = arr.length - 1; i < arr.length && j >= i;) {
+			boolean iOddPlace = false;
+			boolean jOddPlace = false;
 
-            if ((i % 2) == (arr[i] % 2)) {
-                i++;
-            } else {
-                iOddPlace = true;
-            }
+			if (i < arr.length) {
+				if ((i % 2) == (arr[i] % 2)) {
+					i++;
+				} else {
+					iOddPlace = true;
+				}
+			}
 
-            if ((j % 2) == (arr[j] % 2)) {
-                j--;
-            } else {
-               jOddPlace = true;
-            }
+			if (j >= 0) {
 
-            if (iOddPlace && jOddPlace) {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+				if ((j % 2) == (arr[j] % 2)) {
+					j--;
+				} else {
+					jOddPlace = true;
+				}
 
-                i++; j--;
-            }
-        }
-    }
+				if (iOddPlace && jOddPlace) {
+					int temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
 
-    public static void main(String args[]) {
-        arrange(arr);
-        System.out.println(arr);
-    }
+					i++;
+					j--;
+				}
+			}
+		}
+	}
+
+	public static void main(String args[]) {
+		int[] arr = new int[] { 1, 2, 4, 6, 3, 9, 5, 8, 10 };
+		
+		System.out.println(Arrays.toString(arr));
+		arrange(arr);
+		System.out.println(Arrays.toString(arr));
+	}
 }
