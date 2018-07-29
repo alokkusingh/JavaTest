@@ -8,7 +8,7 @@ The repository includes various test/experiments/practice done using Core Java. 
 *) Executors, ExecutorService, Thread
 *) Bit operation
 *) Comparable, Comparator
-*) Collecations
+*) Collections
 *) Lock, ReadWriteLock, ReentrantLock
 *) Queue, Blocking Queue, Produce Consumer using BlockingQueue
 *) Semaphore
