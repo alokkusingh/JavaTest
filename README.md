@@ -1,5 +1,6 @@
 # JavaTest
-## The repository includes various test/experiments/practice done using Core Java. To name the few:
+## The repository includes various test/experiments/practice done using Core Java. 
+#### To name the few:
 ###### *) Sorting - Quick Sort, Bubble Sort, Merge Sort
 ###### *) Binary Search, BST, Binary Tree Spiral traversal, Is BST
 ###### *) LRU Cache implementaion
