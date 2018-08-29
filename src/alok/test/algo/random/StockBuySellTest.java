@@ -70,8 +70,8 @@ public class StockBuySellTest {
 	public static void main(String[] args) {
 		Integer prices[] = new Integer[] { 100, 180, 260, 310, 40, 535, 695 };
 		
-		//Arrays.sort(prices); test ok
-		Arrays.sort(prices, (o1, o2)  -> {
+		Arrays.sort(prices); //test ok
+		/*Arrays.sort(prices, (o1, o2)  -> {
 				if (o1 < 02) {
 					return 1;
 				}
@@ -81,7 +81,7 @@ public class StockBuySellTest {
 				}
 				
 				return 0;
-			});
+			});*/
 		
 		List<Interval> intervals = StockBuySell.findIntervals(prices);
 		

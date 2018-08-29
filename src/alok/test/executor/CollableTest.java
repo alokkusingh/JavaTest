@@ -25,7 +25,7 @@ public class CollableTest {
 			}
 			
 		});
-		
+		executor.shutdown();
 		System.out.println("We are processing your request...");
 		
 		try {
@@ -39,7 +39,7 @@ public class CollableTest {
 			future.cancel(true);
 			System.out.println("Request Timeout, please try again...");
 		}
-		executor.shutdownNow();
+		
 
 	}
 

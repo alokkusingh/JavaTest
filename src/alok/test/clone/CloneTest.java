@@ -1,6 +1,7 @@
 package alok.test.clone;
 
 class Base implements Cloneable {
+	
 	public String str;
 	Base() {
 		str = "Alok";

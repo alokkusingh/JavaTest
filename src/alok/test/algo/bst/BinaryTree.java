@@ -90,9 +90,9 @@ public class BinaryTree {
 		return getNodeLevel(root, key, 1);
 	}
 
-	//in each iteration - if key found then level will be returned otherwise 0 will be retured
-	// if non zero returened no need further itertaion
-	// if zero returned do further itertaion untill null
+	//in each iteration - if key found then level will be returned otherwise 0 will be returned
+	// if non zero returned no need further iteration
+	// if zero returned do further iteration until null
 	private static int getNodeLevel(Node root, int key, int level) {
 		if (root == null) {
 			return 0;
@@ -108,7 +108,7 @@ public class BinaryTree {
 			return levelReturned;
 		}
 
-		//did not find key in left so travesal right tree
+		//did not find key in left so traversal right tree
 		levelReturned = getNodeLevel(root.right, key, level + 1);
 
 		return levelReturned;
