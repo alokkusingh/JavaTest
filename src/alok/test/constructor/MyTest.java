@@ -4,13 +4,22 @@ class Base {
 	int x;
 	int y;
 	String str;
+	
+	static {
+		System.out.println(" BS ");
+	}
+	
+	{
+		System.out.println(" BI ");
+	}
+	
 	Base () {
-		System.out.println(" 0 ");
+		System.out.println(" BUC ");
 		myPrivate();
 	}
 	
 	Base (int x, int y, String str) {
-		System.out.println(" 1 ");
+		System.out.println(" BPC ");
 		this.x = x;
 		this.y = y;
 		this.str = str;
@@ -29,14 +38,22 @@ class Base {
 }
 
 class Derive extends Base {
+	static {
+		System.out.println(" DS ");
+	}
+	
+	{
+		System.out.println(" DI ");
+	}
+	
 	Derive () {
-		System.out.println(" 2 ");
+		System.out.println(" DUC ");
 	}
 	
 	Derive (int x, int y, String str) {
 		super(x,y,str);
-		//this();
-		System.out.println(" 3 ");
+		//this(); // error constructor call cant be second line
+		System.out.println(" DPC ");
 	}
 	
 	private void myPrivate() {
