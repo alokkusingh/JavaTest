@@ -45,20 +45,60 @@ class List {
 		curr.setNext(newNode);
 	}
 
-	public Node getLastThirdNode() {
+	public Node getNthNodeFromEnd(int nth) {
 
-		Node curr = head;
-
-		try {
-			while (curr.next().next().next() != null) {
-				curr = curr.next();
+		Node curr = head, adv = head;
+		
+		// advance the node to the nth postion
+		while (nth > 0) {
+			if (adv != null) {
+				adv = adv.next();
+			} else {
+				return null;
 			}
-		} catch (NullPointerException exp) {
-			return null;
+			--nth;
+		}
+
+
+		while (adv != null) {
+			adv = adv.next();
+			curr = curr.next();
 		}
 
 		return curr;
 	}
+	
+	public boolean findLoopExistsUsingFloyds() {
+		Node fastPtr = head, slowPtr = head;
+		
+		while (fastPtr != null && fastPtr.next() != null) {
+			fastPtr = fastPtr.next().next();
+			slowPtr = slowPtr.next();
+			
+			if (fastPtr == slowPtr) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	public void rotateRight() {
+
+		if (head == null) {
+			return;
+		}
+		
+		Node first = head;
+		
+		while (head.next() != null) {
+			head.setNext(head.next().next());
+		}
+		
+		first.setNext(head);
+		//head.setNext(first);
+	}
+	
 
 	@Override
 	public String toString() {
@@ -79,27 +119,36 @@ public class MyList {
 	public static void main(String[] args) {
 		List myList = new List();
 		System.out.println(myList);
-		System.out.println("Thirt Last: " + myList.getLastThirdNode());
+		System.out.println("Thirt Last: " + myList.getNthNodeFromEnd(3));
 
 		myList.add(1);
 		System.out.println(myList);
-		System.out.println("Thirt Last: " + myList.getLastThirdNode());
+		System.out.println("Thirt Last: " + myList.getNthNodeFromEnd(3));
 
 		myList.add(2);
 		System.out.println(myList);
-		System.out.println("Thirt Last: " + myList.getLastThirdNode());
+		System.out.println("Thirt Last: " + myList.getNthNodeFromEnd(3));
 
 		myList.add(3);
 		System.out.println(myList);
-		System.out.println("Thirt Last: " + myList.getLastThirdNode());
+		System.out.println("Thirt Last: " + myList.getNthNodeFromEnd(3));
 
 		myList.add(4);
 		System.out.println(myList);
-		System.out.println("Thirt Last: " + myList.getLastThirdNode());
+		System.out.println("Thirt Last: " + myList.getNthNodeFromEnd(3));
 
 		myList.add(5);
 		System.out.println(myList);
-		System.out.println("Thirt Last: " + myList.getLastThirdNode());
+		System.out.println("Thirt Last: " + myList.getNthNodeFromEnd(3));
+		System.out.println("Second Last: " + myList.getNthNodeFromEnd(2));
+		System.out.println("1st Last: " + myList.getNthNodeFromEnd(1));
+		System.out.println("0 Last: " + myList.getNthNodeFromEnd(0));
+		
+		System.out.println("Loop exists: " + myList.findLoopExistsUsingFloyds());
+		
+		myList.rotateRight();
+		System.out.println(myList);
+
 
 	}
 

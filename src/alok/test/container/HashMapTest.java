@@ -26,13 +26,17 @@ class MyTestClass {
 		System.out.println("equals called");
 		if (this == obj)
 			return true;
+		
 		if (obj == null)
 			return false;
+		
 		if (getClass() != obj.getClass())
 			return false;
+		
 		MyTestClass other = (MyTestClass) obj;
 		if (a != other.a)
 			return false;
+		
 		return true;
 	}
 
