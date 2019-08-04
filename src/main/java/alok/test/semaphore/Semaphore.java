@@ -7,7 +7,7 @@ public class Semaphore {
 		counter = init;
 	}
 		
-	//Aquiring the lock
+	//Acquiring the lock
 	public synchronized void acquire() {
 		while(counter == 0) {
 			try {wait();} catch (InterruptedException e) {e.printStackTrace();}
