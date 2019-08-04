@@ -12,15 +12,16 @@
 #
 #  Date        By                        Description
 #  ----        -----------------------   -----------
-#  24/07/2017  alok.singh@evolving.com   Cassnadra DB PA
+#  24/07/2017  alok.ku.singh@gmail.com
+Cassnadra DB PA
 #
 #*****************************************************************************
-# Copyright (c) 2017 Evolving Systems Ltd
+# Copyright (c) 2017 dummy
 # All Rights Reserved.
 #
 # The copyright to this program herein is the property of
-# Evolving Systems Ltd. The program may be used and/or copied only with
-# written permission of Evolving Systems Ltd or in accordance with the
+# dummy. The program may be used and/or copied only with
+# written permission of dummy or in accordance with the
 # terms and conditions stipulated in the agreement/contract under
 # which the program has been supplied.
 #*****************************************************************************/
