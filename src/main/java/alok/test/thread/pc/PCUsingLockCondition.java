@@ -43,7 +43,39 @@ class MyOwnProducer implements Callable<Void> {
 			} finally {
 				lock.unlock();
 			}
-			readCondition.signal();
+			readCondition.signalAll();
+		}
+	}
+}
+
+class MyOwnConsumer implements Callable<Void> {
+
+	Queue<Double> queue;
+	Lock lock;
+	Condition writeCondition;
+	Condition readCondition;
+	
+	MyOwnConsumer(Queue<Double> queue, Lock lock, Condition writeCondition, Condition readCondition) {
+		this.queue = queue;
+		this.lock = lock;
+		this.writeCondition = writeCondition;
+		this.readCondition = readCondition;
+	}
+	
+	@Override
+	public Void call() throws Exception {
+		
+		while (true) {
+			try {
+				lock.lock();
+				while (queue.size() == 0) {
+					readCondition.await();
+				}
+				queue.add(Math.random());
+			} finally {
+				lock.unlock();
+			}
+			writeCondition.signalAll();
 		}
 	}
 }
