@@ -8,13 +8,13 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LockBasedOnValueTest {
 
-	final static int MAX_THREAD = 3;
+	final static int MAX_THREAD = 32;
 	final static Lock[] locksForAbcOperation = new Lock[MAX_THREAD];
 	
 	static {
 		for (int i = 0; i < MAX_THREAD; ++i) {
 			// with fairness enabled
-			locksForAbcOperation[i] = new ReentrantLock(true);
+			locksForAbcOperation[i] = new ReentrantLock();
 		}
 	}
 	

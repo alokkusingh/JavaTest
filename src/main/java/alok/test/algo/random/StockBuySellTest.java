@@ -5,16 +5,16 @@ import java.util.LinkedList;
 import java.util.List;
 
 class Interval {
-	private Integer buyDay;
-	private Integer sellDay;
+	private int buyDay;
+	private int sellDay;
 	
-	public Integer getBuyDay() {
+	public int getBuyDay() {
 		return buyDay;
 	}
 	public void setBuyDay(int buyDay) {
 		this.buyDay = buyDay;
 	}
-	public Integer getSellDay() {
+	public int getSellDay() {
 		return sellDay;
 	}
 	public void setSellDay(int sellDay) {
