@@ -37,7 +37,7 @@ public class RandomTest {
 		System.out.println(myBits);
 		System.out.println(myBits2);
 		
-		List<NoEquals> myList = new LinkedList();
+		List<NoEquals> myList = new LinkedList<>();
 		
 		myList.add(new NoEquals(5));
 		myList.add(new NoEquals(4));

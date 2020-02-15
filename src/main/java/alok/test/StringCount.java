@@ -21,7 +21,7 @@ public class StringCount {
 	}
 	
 	public static void main(String[] args) {
-		String str = "You young whippersnappers and your and newfangled post-Java-1.6 trickery! Seriously, at least one project in my company still runs on Java";
+		String str = "You young whippersnappers and your and newfangled 	post-Java-1.6 trickery! Seriously, at least one project in my company still runs on Java";
 
 		System.out.println(countString(str));
 	}

@@ -1,6 +1,6 @@
 package alok.test;
 
-import org.eclipse.jdt.annotation.NonNull;
+//import org.eclipse.jdt.annotation.NonNull;
 
 public class NotNullTest {
 
@@ -16,7 +16,8 @@ public class NotNullTest {
 
 	}
 	
-	static void myTest(@NonNull String str) {
+//	static void myTest(@NonNull String str) {
+static void myTest(String str) {
 		System.out.println("Sring Length: " + str.length());
 	}
 
