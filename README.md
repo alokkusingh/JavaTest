@@ -3,7 +3,7 @@
 #### To name the few:
 ###### *) Sorting - Quick Sort, Bubble Sort, Merge Sort
 ###### *) Binary Search, BST, Binary Tree Spiral traversal, Is BST
-########## src/main/java/alok/test/algo/bst/BinaryTree.java
+           -> src/main/java/alok/test/algo/bst/BinaryTree.java
 ###### *) LRU Cache implementaion
 ###### *) Stock Buy Sell
 ###### *) Collable
