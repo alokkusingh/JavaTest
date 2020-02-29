@@ -5,6 +5,8 @@ import java.util.*;
 public class StringTests {
     public static int getLongestUniqueSubString(String str) {
 
+        meStatic();
+
         if (str == null) {
             return 0;
         }
@@ -13,6 +15,7 @@ public class StringTests {
         for (Character ch: str.toLowerCase().toCharArray()) {
            distinctChars.add(ch);
         }
+
 
         return distinctChars.size();
     }
@@ -28,5 +31,9 @@ public class StringTests {
         });
 
         return stringList.stream().reduce("", (str1, str2) -> (str1 == null ? "" : str1) + (str2 == null ? "" : str2));
+    }
+
+    public static void meStatic() {
+       System.out.println("Alok - meStatic() original called");
     }
 }

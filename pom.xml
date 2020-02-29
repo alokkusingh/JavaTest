@@ -9,6 +9,7 @@
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+		<jmockit.version>1.42</jmockit.version>
 	</properties>
 
 	<dependencies>
@@ -25,6 +26,16 @@
 				<version>5.3.0</version>
 				<scope>test</scope>
 			</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jmockit/jmockit -->
+		<dependency>
+			<groupId>org.jmockit</groupId>
+			<artifactId>jmockit</artifactId>
+			<version>${jmockit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -40,6 +51,57 @@
 							<version>5.3.2</version>
 						</dependency>
 					</dependencies>
+					<configuration>
+						<!--<argLine>@{argLine} -more -arguments</argLine>-->
+						<argLine>
+							@{argLine} -javaagent:"${settings.localRepository}"/org/jmockit/jmockit/${jmockit.version}/jmockit-${jmockit.version}.jar
+						</argLine>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.jacoco</groupId>
+					<artifactId>jacoco-maven-plugin</artifactId>
+					<version>0.8.3</version>
+					<executions>
+						<execution>
+							<id>coverage-initialize</id>
+							<goals>
+								<goal>prepare-agent</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>coverage-report</id>
+							<phase>post-integration-test</phase>
+							<goals>
+								<goal>report</goal>
+							</goals>
+						</execution>
+						<!-- Threshold -->
+					<!--	<execution>
+							<id>coverage-check</id>
+							<goals>
+								<goal>check</goal>
+							</goals>
+							<configuration>
+								<rules>
+									<rule>
+										<element>CLASS</element>
+										<excludes>
+											<exclude>com.asimio.demo.Application</exclude>
+										</excludes>
+										<limits>
+											<limit>
+												<counter>LINE</counter>
+												<value>COVEREDRATIO</value>
+												<minimum>80%</minimum>
+											</limit>
+										</limits>
+									</rule>
+								</rules>
+							</configuration>
+						</execution>-->
+					</executions>
 				</plugin>
 			</plugins>
 		</build>
