@@ -4,7 +4,7 @@ import mockit.Mock;
 import mockit.MockUp;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 class StringTestsTest {
@@ -27,7 +27,7 @@ class StringTestsTest {
 
     @Test
     void getStringLexicographicallySorted() {
-        System.out.println("-- Running Tests: StringTestsTest::getStringLexicographicallySorted" );
+        System.out.println("-- Running Tests: StringTestsTest::getStringLexicographicallySorted");
         assertEquals("onethreetwo", StringTests.getStringLexicographicallySorted("one", "two", "three"));
         assertEquals("onetwo", StringTests.getStringLexicographicallySorted("one", "two", null));
         assertEquals("onethree", StringTests.getStringLexicographicallySorted("one", null, "three"));
