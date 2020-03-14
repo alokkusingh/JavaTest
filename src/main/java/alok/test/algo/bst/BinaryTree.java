@@ -1,5 +1,7 @@
 package alok.test.algo.bst;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 //Java implementation to check if given Binary tree
@@ -151,6 +153,27 @@ public class BinaryTree {
 		}
 	}
 
+	// this is BFS
+	public static void printLevelTraversal(Node root) {
+
+		if (root == null)
+			return;
+
+		Queue<Node> nodeQueue = new LinkedList<>();
+		nodeQueue.add(root);
+
+		while(!nodeQueue.isEmpty()) {
+			Node node = nodeQueue.remove();
+
+			System.out.print(node.data + " ");
+			if (node.left != null)
+				nodeQueue.add(node.left);
+
+			if (node.right != null)
+				nodeQueue.add(node.right);
+		}
+	}
+
 	/* Driver program to test above functions */
 	public static void main(String args[]) {
 		BinaryTree tree = new BinaryTree();
@@ -184,5 +207,7 @@ public class BinaryTree {
 		System.out.println("5 Level: " + BinaryTree.getNodeLevel(tree.root, 5));
 		System.out.println("6 Level: " + BinaryTree.getNodeLevel(tree.root, 6));
 		BinaryTree.printSpiralOrder(tree.root);
+
+		BinaryTree.printLevelTraversal(tree.root);
 	}
 }
