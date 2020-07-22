@@ -126,35 +126,33 @@ public class BinaryTree {
 		boolean directionFalg = false;
 		
 		while (!stack.isEmpty()) {
-			Stack<Node> tempStack = new Stack<Node>();
+			Stack<Node> internalStack = new Stack<Node>();
 
 			while (!stack.isEmpty()) {
-				Node tempNode = stack.pop();
-				System.out.println(tempNode);
+				Node node = stack.pop();
+				System.out.format("%d ", node.data);
 
 				if (directionFalg) {
-					if (tempNode.left != null) {
-						tempStack.push(tempNode.left);
-					}
-					if (tempNode.right != null) {
-						tempStack.push(tempNode.right);
-					}
+					if (node.left != null)
+						internalStack.push(node.left);
+
+					if (node.right != null)
+						internalStack.push(node.right);
 				} else {
-					if (tempNode.right != null) {
-						tempStack.push(tempNode.right);
-					}
-					if (tempNode.left != null) {
-						tempStack.push(tempNode.left);
-					}
+					if (node.right != null)
+						internalStack.push(node.right);
+
+					if (node.left != null)
+						internalStack.push(node.left);
 				}
 			}
 			directionFalg = !directionFalg;
-			stack = tempStack;
+			stack = internalStack;
 		}
 	}
 
 	// this is BFS
-	public static void printLevelTraversal(Node root) {
+	public static void printLevelTraversalBFS(Node root) {
 
 		if (root == null)
 			return;
@@ -207,8 +205,18 @@ public class BinaryTree {
 		System.out.println("4 Level: " + BinaryTree.getNodeLevel(tree.root, 4));
 		System.out.println("5 Level: " + BinaryTree.getNodeLevel(tree.root, 5));
 		System.out.println("6 Level: " + BinaryTree.getNodeLevel(tree.root, 6));
+
+		System.out.println("Data:\n" +
+				"\t     4\n" +
+				"\t    / \\\n" +
+				"\t   2   5\n" +
+				"\t  / \\\n" +
+				"\t 1   3");
+
+		System.out.println("\nSpiral Traversal");
 		BinaryTree.printSpiralOrder(tree.root);
 
-		BinaryTree.printLevelTraversal(tree.root);
+		System.out.println("\nLevel Traversal - BFS");
+		BinaryTree.printLevelTraversalBFS(tree.root);
 	}
 }
