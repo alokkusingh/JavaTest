@@ -33,4 +33,16 @@ class StringTestsTest {
         assertEquals("onethree", StringTests.getStringLexicographicallySorted("one", null, "three"));
         assertEquals("threetwo", StringTests.getStringLexicographicallySorted(null, "two", "three"));
     }
+
+    @Test
+    void revNumber() {
+        System.out.println("-- Running Tests: StringTestsTest::revNumber");
+        assertEquals(321, StringTests.revNumber(123));
+        assertEquals(204, StringTests.revNumber(402));
+        assertEquals(402, StringTests.revNumber(204));
+        assertEquals(1, StringTests.revNumber(100));
+        assertEquals(0, StringTests.revNumber(0));
+        assertEquals(-1, StringTests.revNumber(-1));
+        assertEquals(-321, StringTests.revNumber(-123));
+    }
 }

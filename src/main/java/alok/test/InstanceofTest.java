@@ -33,8 +33,8 @@ public class InstanceofTest {
 
 		System.out.println("test3 is instnaceof Test? " + (test3 instanceof Test)); //true
 		System.out.println("test3 is instnaceof Object? " + (test3 instanceof Object)); //true
-		System.out.println("test3 is instnaceof Test2? " + (test3 instanceof Test2)); //true
-		System.out.println("test3 is instnaceof Test3? " + (test3 instanceof Test3)); //false
+		System.out.println("test3 is instnaceof Test2? " + (test3 instanceof Test2)); //false
+		System.out.println("test3 is instnaceof Test3? " + (test3 instanceof Test3)); //true
 	}
 
 }

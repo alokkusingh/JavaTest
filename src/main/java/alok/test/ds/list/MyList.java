@@ -49,7 +49,7 @@ class List {
 
 		Node curr = head, adv = head;
 		
-		// advance the node to the nth postion
+		// advance the node to the nth position
 		while (nth > 0) {
 			if (adv != null) {
 				adv = adv.next();

@@ -1,5 +1,9 @@
 package alok.test.thread;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
 class MyMutex {
 }
 
@@ -74,7 +78,20 @@ public class MyThread3 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		MyMutex mutex = new MyMutex();
 
+		ExecutorService executorService = Executors.newFixedThreadPool(3);
+		executorService.execute(new RunnableX(mutex));
+		executorService.execute(new RunnableY(mutex));
+		executorService.execute(new RunnableZ(mutex));
+
+		try {
+			executorService.awaitTermination(10000, TimeUnit.MILLISECONDS);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		System.out.println("Completed!");
 	}
 
 }

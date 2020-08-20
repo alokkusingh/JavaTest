@@ -20,7 +20,8 @@ public class Semaphore {
 	public synchronized void release() {	
 		counter++;
 		System.out.println("released, aviable resource: " + counter);
-		
+
+		if (counter-1 == 0)
 		notify();
 	}
 	

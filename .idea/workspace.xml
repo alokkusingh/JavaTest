@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dade24f9-23e6-49ce-9ebf-79b37af65862" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea&#10;#&#9;pom.xml">
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/algo/bst/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/algo/bst/BinaryTree.java" afterDir="false" />
+    <list default="true" id="125b6746-82f8-4f93-85cd-d6ca27e91015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/InstanceofTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/InstanceofTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/container/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/container/MySetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/ds/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/ds/list/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/exception/ResourceTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/exception/ResourceTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/exception/TestDevisionByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/exception/TestDevisionByZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/executor/CollableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/executor/CollableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/gc/GCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/gc/GCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/innerclass/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/innerclass/AnonymousInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/io/MyKeyboardBufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/io/MyKeyboardBufferedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/random/StringTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/random/StringTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/semaphore/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/semaphore/Semaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/IntruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/IntruptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/MyThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/MyThread3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/PrintSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/PrintSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/ThreadLocalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/volatilE/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/volatilE/VolatileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alok/test/random/StringTestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alok/test/random/StringTestsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alok/test/stream/TestMapParallelStreamTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alok/test/stream/TestMapParallelStreamTest" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,80 +36,29 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="alokkusingh &lt;alok.ku.singh@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1Xpn895USiJEDDGE0CsLOKS4kAI" />
+  <component name="ProjectId" id="1bCpL1qJlZafgMAEospeR2PuPRJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="/usr/bin/git" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.21323529" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="alok.test" />
-      <recent name="alok.test.random" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/alok/test/random" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.BinaryTree">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alok.test.algo.bst.BinaryTree" />
+  <component name="RunManager" selected="JUnit.StringTestsTest.revNumber">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alok.test.semaphore.App" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alok.test.algo.bst.*" />
+          <option name="PATTERN" value="alok.test.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,22 +66,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTestsTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstanceofTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alok.test.InstanceofTest" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alok.test.random.*" />
+          <option name="PATTERN" value="alok.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="alok.test.random.StringTestsTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTestsTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LockBasedOnValueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alok.test.lock.LockBasedOnValueTest" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alok.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alok.test.volatilE.VolatileTest" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alok.test.volatilE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTestsTest.revNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -119,48 +115,50 @@
       </extension>
       <option name="PACKAGE_NAME" value="alok.test.random" />
       <option name="MAIN_CLASS_NAME" value="alok.test.random.StringTestsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="revNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTestsTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alok.test.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alok.test.random" />
-      <option name="MAIN_CLASS_NAME" value="alok.test.random.StringTestsTest" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alok.test.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alok.test.random" />
-      <option name="MAIN_CLASS_NAME" value="alok.test.random.StringTestsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="JUnit.StringTestsTest" />
-        <item itemvalue="JUnit.StringTestsTest (5)" />
-        <item itemvalue="JUnit.StringTestsTest (4)" />
-        <item itemvalue="JUnit.StringTestsTest (3)" />
+        <item itemvalue="JUnit.StringTestsTest.revNumber" />
+        <item itemvalue="Application.InstanceofTest" />
+        <item itemvalue="Application.VolatileTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.LockBasedOnValueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,18 +167,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dade24f9-23e6-49ce-9ebf-79b37af65862" name="Default Changelist" comment="" />
-      <created>1581751741337</created>
+      <changelist id="125b6746-82f8-4f93-85cd-d6ca27e91015" name="Default Changelist" comment="" />
+      <created>1588145870275</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581751741337</updated>
+      <updated>1588145870275</updated>
     </task>
-    <task id="LOCAL-00001" summary="Random tests">
-      <created>1581755688681</created>
+    <task id="LOCAL-00001" summary="Minor update">
+      <created>1595421639545</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1581755688681</updated>
+      <updated>1595421639545</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -190,17 +188,53 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Random tests" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea&#10;#&#9;pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea&#10;#&#9;pom.xml" />
+    <MESSAGE value="Minor update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="332" y="25" key="CommitChangelistDialog2" timestamp="1595421639122">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="332" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595421639122" />
+    <state width="1398" height="349" key="GridCell.Tab.0.bottom" timestamp="1597925775689">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597925775689" />
+    <state width="1398" height="349" key="GridCell.Tab.0.center" timestamp="1597925775687">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597925775687" />
+    <state width="1398" height="349" key="GridCell.Tab.0.left" timestamp="1597925775686">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597925775686" />
+    <state width="1398" height="349" key="GridCell.Tab.0.right" timestamp="1597925775688">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597925775688" />
+    <state x="552" y="159" key="RollbackChangesDialog" timestamp="1595500026956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="552" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1595500026956" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595421641515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595421641515" />
+    <state x="427" y="205" width="586" height="490" key="find.popup" timestamp="1597916974952">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="427" y="205" width="586" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1597916974952" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1597916951995">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597916951995" />
   </component>
 </project>

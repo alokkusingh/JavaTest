@@ -19,9 +19,14 @@ public class CollableTest {
 
 			@Override
 			public String call() throws Exception {
-				
-				Thread.sleep((int)(Math.random() * 10000));
-				return "Hello World";
+
+				try {
+					Thread.sleep((int)(Math.random() * 10000));
+				} catch (InterruptedException e) {
+					System.out.println("\tThread: I am interrupted!");
+					// below "Hello World" will not be printed!
+				}
+				return "\tHello World";
 			}
 			
 		});
@@ -29,18 +34,13 @@ public class CollableTest {
 		System.out.println("We are processing your request...");
 		
 		try {
-			System.out.println(future.get(5000, TimeUnit.MILLISECONDS));
-			
+			System.out.println(future.get(4000, TimeUnit.MILLISECONDS));
 		} catch (InterruptedException | ExecutionException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (TimeoutException e) {
-			// TODO Auto-generated catch block
-			future.cancel(true);
 			System.out.println("Request Timeout, please try again...");
+			System.out.println("Interrupted: " + future.cancel(true));  // interrupt if running - should be interrupted because thread is in sleep
+			//System.out.println("Interrupted: " + future.cancel(false));  // will not send Interrupt signal, but will return true
 		}
-		
-
 	}
-
 }

@@ -6,6 +6,7 @@ public class TestMapParallelStreamTest {
 
     @Test
     public void test() {
+        System.out.println("TestMapParallelStreamTest");
         TestMapParallelStream.test();
     }
 

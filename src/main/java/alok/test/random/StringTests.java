@@ -36,4 +36,25 @@ public class StringTests {
     public static void meStatic() {
        System.out.println("Alok - meStatic() original called");
     }
+
+
+    public static int revNumber(int number) {
+
+        boolean negative = false;
+        if (number < 0) {
+            negative = true;
+            number = -number;
+        }
+
+        int revNum = 0;
+        while (number > 0) {
+            revNum = revNum * 10 + number % 10;
+            number /= 10;
+        }
+
+        if (negative)
+            revNum = -revNum;
+
+        return revNum;
+    }
 }

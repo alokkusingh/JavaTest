@@ -15,7 +15,7 @@ public class VolatileTest {
             int y=x;
             //See if x is modified in between
             if(y!=x){
-                System.out.println(System.currentTimeMillis() +  " whoa");
+                System.out.println(System.currentTimeMillis() +  " \t\twhoa");
             }
         }
     }

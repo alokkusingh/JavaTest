@@ -1,5 +1,8 @@
 package alok.test.thread;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class ThreadLocalExample {
 
 
@@ -11,7 +14,7 @@ public class ThreadLocalExample {
         @Override
         public void run() {
             threadLocal.set( (int) (Math.random() * 100D) );
-    
+
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
@@ -33,6 +36,12 @@ public class ThreadLocalExample {
 
         thread1.join(); //wait for thread 1 to terminate
         thread2.join(); //wait for thread 2 to terminate
+
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
+        for (int i = 0; i < 20; i++) {
+            executorService.submit(sharedRunnableInstance);
+        }
+
     }
 
 }

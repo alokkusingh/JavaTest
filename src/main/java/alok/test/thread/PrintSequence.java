@@ -10,19 +10,19 @@ public class PrintSequence {
 
 			@Override
 			public void run() {
-				while (data <= 30) {
+				while (true) {
 					System.out.println("Even Thread: waiting to enter the lock");
-					synchronized (Integer.class) {
+					synchronized (PrintSequence.class) {
 						System.out.println("Even Thread: entered the lock");
 						if (data % 2 == 0) {
 							System.out.println("Even Thread: " + data);
 							++data;
 							System.out.println("Even Thread: releasing the lock");
-							Integer.class.notify();
+							PrintSequence.class.notify();
 						} else {
 							try {
 								System.out.println("Even Thread: waiting to aquire the lock");
-								Integer.class.wait();
+								PrintSequence.class.wait();
 							} catch (InterruptedException e) {
 								e.printStackTrace();
 							}
@@ -36,19 +36,19 @@ public class PrintSequence {
 
 			@Override
 			public void run() {
-				while (data <= 30) {
+				while (true) {
 					System.out.println("Odd  Thread: waiting to enter the lock");
-					synchronized (Integer.class) {
+					synchronized (PrintSequence.class) {
 						System.out.println("Odd  Thread: entered the lock");
 						if (data % 2 != 0) {
 							System.out.println("Odd  Thread: " + data);
 							++data;
 							System.out.println("Odd  Thread: releasing the lock");
-							Integer.class.notify();
+							PrintSequence.class.notify();
 						} else {
 							try {
 								System.out.println("Odd  Thread: waiting to aquire the lock");
-								Integer.class.wait();
+								PrintSequence.class.wait();
 							} catch (InterruptedException e) {
 								e.printStackTrace();
 							}

@@ -14,6 +14,5 @@ class MyKeyboardBufferedReader
         String b = br.readLine();
         System.out.printf("You have entered:- " + a +
                           " and name as " + b);
-        
     }
 }
