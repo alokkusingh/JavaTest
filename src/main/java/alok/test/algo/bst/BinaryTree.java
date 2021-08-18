@@ -182,6 +182,7 @@ public class BinaryTree {
 		//  / \
 		// 1   3
 
+
 		tree.root = new Node(4);
 		tree.root.left = new Node(2);
 		tree.root.right = new Node(5);
