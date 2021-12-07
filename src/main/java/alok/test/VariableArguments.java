@@ -12,7 +12,7 @@
 #  ----        -----------------------   -----------
 #  24/07/2017  alok.ku.singh@gmail.com   Cassnadra DB
 #
-
+*/
 package alok.test;
 
 public class VariableArguments {
@@ -43,5 +43,4 @@ public class VariableArguments {
 
 		myVarArgMethod(4, "1", "2", "3", "4");
 	}
-
 }
