@@ -3,11 +3,9 @@
 #	%name: VariableArguments.java %
 #	%derived_by: alok %
 #
-#	%release: Development/1.1.0 %
 #	%version: 1 %
 #	%date_modified: 2:24:03 PM %
-#
-#	Description: Cassandra DB PA. %
+
 #  Change History: None. %
 #
 #  Date        By                        Description
