@@ -61,6 +61,10 @@ public class App {
 }
 
 class MeetingSlot implements Comparable<MeetingSlot> {
+
+    private int startTime;
+    private int endTime;
+
     public MeetingSlot(int startTime, int endTime) {
         this.startTime = startTime;
         this.endTime = endTime;
@@ -74,8 +78,6 @@ class MeetingSlot implements Comparable<MeetingSlot> {
                 '}';
     }
 
-    private int startTime;
-    private int endTime;
 
     public int getStartTime() {
         return startTime;
