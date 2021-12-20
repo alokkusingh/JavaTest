@@ -1,0 +1,24 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æÊíİøÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Æ×·
+M	java:S1062"9Replace this use of System.out or System.err by a logger.(‘¬¨N
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ª÷°ö
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(†íÓ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ŞÚûÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(šı°šùÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ª÷°ö
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(ª±šüıÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(ºÿÿøÿÿÿÿ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(ÁñÛÑ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(šòíÔùÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(ìòÏ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(ª÷°ö
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(ª÷°ö
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(±êü¦ÿÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(±êü¦ÿÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(›Õşºøÿÿÿÿ
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(¹²€…
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(ª÷°ö
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(†íÓ
+?
+java:S1068")Remove this unused "limit" private field.(Ò÷»ô

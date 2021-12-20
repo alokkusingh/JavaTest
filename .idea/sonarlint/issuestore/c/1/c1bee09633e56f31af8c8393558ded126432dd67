@@ -1,0 +1,23 @@
+
+b
+java:S1192"GDefine a constant instead of duplicating this literal "raidon" 3 times.(Ğ øşûÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ıñ«‡
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ö§µùÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+l
+java:S34575"Q%n should be used in place of \n to produce the platform-specific line separator.(®ı£Üşÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(®ı£Üşÿÿÿÿ
+l
+java:S34577"Q%n should be used in place of \n to produce the platform-specific line separator.(Ş‚ğÿøÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(Ş‚ğÿøÿÿÿÿ
+l
+java:S34578"Q%n should be used in place of \n to produce the platform-specific line separator.(ã’ó–ÿÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ã’ó–ÿÿÿÿÿ
+?
+java:S21409")Use "java.util.Random.nextInt()" instead.(…şÏÿ
+l
+java:S3457="Q%n should be used in place of \n to produce the platform-specific line separator.(Âèøóùÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(Âèøóùÿÿÿÿ

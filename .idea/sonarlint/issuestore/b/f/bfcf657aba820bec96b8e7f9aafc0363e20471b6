@@ -1,0 +1,32 @@
+
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(®’«§
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ôÏ¹Œùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©áº
+R
+java:S4719"<Replace charset name argument with StandardCharsets.US_ASCII(©áº
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¬éj
+S
+java:S4719">Replace charset name argument with StandardCharsets.ISO_8859_1(Æ¬éj
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹ò‡¸ÿÿÿÿÿ
+T
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¹ò‡¸ÿÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(«˜;
+O
+java:S4719":Replace charset name argument with StandardCharsets.UTF_16(«˜;
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÍä…
+R
+java:S4719"<Replace charset name argument with StandardCharsets.UTF_16BE(ŸÍä…
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÚŞ±Í
+R
+java:S4719"<Replace charset name argument with StandardCharsets.UTF_16LE(ÚŞ±Í
+>	java:S108")Either remove or fill this block of code.(”ı¾
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(±é‰şÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(“ÄËßşÿÿÿÿ
+O
+java:S4719'"9Replace charset name argument with StandardCharsets.UTF_8(·ìŠ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(“ÄËßşÿÿÿÿ
+R
+java:S4719)"<Replace charset name argument with StandardCharsets.US_ASCII(æ£¸å
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(“ÄËßşÿÿÿÿ

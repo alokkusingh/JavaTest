@@ -1,0 +1,14 @@
+
+U
+java:S3518":Make sure "zero" can't be zero before doing this division.(„àÉ½üÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "x".(„àÉ½üÿÿÿÿ
+<
+java:S1181"!Catch Exception instead of Error.(Á­”„úÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ž®æˆýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ñ±™Œ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(—Úµ±ûÿÿÿÿ
+M	java:S106&"9Replace this use of System.out or System.err by a logger.(­Ÿƒ~
+A
+java:S1481"&Remove this unused "x" local variable.(„àÉ½üÿÿÿÿ

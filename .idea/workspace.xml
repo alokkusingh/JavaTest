@@ -1,32 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="125b6746-82f8-4f93-85cd-d6ca27e91015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b0dd7b8306d6c1aef6f33edc514c405ab7899d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d8c50d10228ca8462d270901f4b1d8d5ba99c45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fa5002684962f15ad2fb8cce6934806827c4e47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/2390992318475a3acd2d4ca8dc42ec838b855cde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24066911054d5324fd164863b6d15dd4084d7c54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24860ce9a0e0945b67df609021f5712fbbc085d5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f751989bb459d090169ef38c32e32cad00704f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30169490a9abb2276657b5c580240c3cdf313c35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b9540d3068ecbc5d8e042418990bd6108eb24ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3ba28bcbde949aba7efaf6f480328ba77a462276" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cc8daa08d1ef1ee5fa818fb0ac5e438ab76dcc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42b744809939531b61ba0f3403416f42a0761299" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/470ff8dbee730f9dd635abc57494bc80245c58ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4954baddf14241cc5712aa4d217d7acf92329375" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ac1c3eb321e7c70251356045c67ea9a9b65079b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52cb04847b5fbb5a1bcaf8bc1b08c3307528510b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6ca2366162aff3df21e3ea431fb087aeeb65a07d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/755c6c1b036072491785fb15e10b2c276a9920b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899fd65c45fce88b73f5c8e43abc970e64176c22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90cbe97e746fd0fe783c0ae51621791d3eeae1ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97163df57802c682d55260517b8ab4a2ca2bc88d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b8507c90e7e0176733bc23b297e455fd8c98064" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c535989792ed3f3cc9b3d7fa52d173ecd541a60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d3beb1529647f0d4af9f41c7c41375ecb0ae6a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b78dfa245b38582bb4b5a645760c505a7cc1b174" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfcf657aba820bec96b8e7f9aafc0363e20471b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1bee09633e56f31af8c8393558ded126432dd67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2d24578c5660fc1d00cbd83cfaed37a8dfbc405" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d97a59a5e69eb15396073cb483363ce6d7ead624" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db866221fecdaaf209a67c58a57e32462e61f6ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc9eb7a257267e6ffdca35f0b52756a2d4293ddb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7949b214feb3deef25c564e0087375d30a654d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf8b7242c950698cbf3015cd383c843529c4206" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef69dd61237ac4e4908e3d119f5bd7afde71f92c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f06f977174ea1e9ad8c7777b721ebf919f8ff8de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/InstanceofTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/InstanceofTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/container/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/container/MySetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/ds/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/ds/list/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/exception/ResourceTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/exception/ResourceTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/exception/TestDevisionByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/exception/TestDevisionByZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/executor/CollableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/executor/CollableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/gc/GCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/gc/GCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/innerclass/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/innerclass/AnonymousInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/io/MyKeyboardBufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/io/MyKeyboardBufferedReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/random/StringTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/random/StringTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/semaphore/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/semaphore/Semaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/IntruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/IntruptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/MyThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/MyThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/PrintSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/PrintSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/thread/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/thread/ThreadLocalExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/volatilE/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alok/test/volatilE/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alok/test/random/StringTestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alok/test/random/StringTestsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alok/test/stream/TestMapParallelStreamTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alok/test/stream/TestMapParallelStreamTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alok/test/logic/meeting-slot/App" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +70,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/alok/test/logic" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.StringTestsTest.revNumber">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alok.test.logic.meetingslot.App" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alok.test.logic.meetingslot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alok.test.semaphore.App" />
       <module name="JavaTest" />
@@ -72,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="alok.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockBasedOnValueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alok.test.lock.LockBasedOnValueTest" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alok.test.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,14 +140,6 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -154,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="JUnit.StringTestsTest.revNumber" />
         <item itemvalue="Application.InstanceofTest" />
         <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.LockBasedOnValueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,43 +211,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Minor update" />
     <option name="LAST_COMMIT_MESSAGE" value="Minor update" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="332" y="25" key="CommitChangelistDialog2" timestamp="1595421639122">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="332" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595421639122" />
-    <state width="1398" height="349" key="GridCell.Tab.0.bottom" timestamp="1597925775689">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="349" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597925775689" />
-    <state width="1398" height="349" key="GridCell.Tab.0.center" timestamp="1597925775687">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="349" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597925775687" />
-    <state width="1398" height="349" key="GridCell.Tab.0.left" timestamp="1597925775686">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="349" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597925775686" />
-    <state width="1398" height="349" key="GridCell.Tab.0.right" timestamp="1597925775688">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="349" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597925775688" />
-    <state x="552" y="159" key="RollbackChangesDialog" timestamp="1595500026956">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="552" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1595500026956" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595421641515">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595421641515" />
-    <state x="427" y="205" width="586" height="490" key="find.popup" timestamp="1597916974952">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="427" y="205" width="586" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1597916974952" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1597916951995">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597916951995" />
   </component>
 </project>
