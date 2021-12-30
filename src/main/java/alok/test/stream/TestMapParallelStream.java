@@ -60,8 +60,4 @@ public class TestMapParallelStream {
             e.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-       test();
-    }
 }
