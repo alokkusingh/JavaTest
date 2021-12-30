@@ -50,6 +50,7 @@ public class TestMapParallelStream {
         try {
             holdingDTOByUniqueId = holdingDTOs.parallelStream()
                     .collect(Collectors.toMap(HoldingDTO::getUniqueId, Function.identity(), (x,y) -> {
+                        // Need to handle the conflict here
                         System.out.println("Duplicate keys, so returning the 1st one");
                         return x;
                     }));
@@ -60,4 +61,7 @@ public class TestMapParallelStream {
         }
     }
 
+    public static void main(String[] args) {
+       test();
+    }
 }
