@@ -10,4 +10,10 @@ class TestMapParallelStreamTest {
         TestMapParallelStream.test();
     }
 
+    @Test
+    void testException() {
+        System.out.println("TestMapParallelStreamTest");
+        TestMapParallelStream.test();
+    }
+
 }

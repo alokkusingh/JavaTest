@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 class HoldingDTO {
@@ -46,7 +47,7 @@ public class TestMapParallelStream {
                 // Collectors.toMap method. If we dont handle mergeFunction (3rd optional argument)
 
         );
-        Map<String, HoldingDTO> holdingDTOByUniqueId = new HashMap<>();
+        Map<String, HoldingDTO> holdingDTOByUniqueId;
         try {
             holdingDTOByUniqueId = holdingDTOs.parallelStream()
                     .collect(Collectors.toMap(HoldingDTO::getUniqueId, Function.identity(), (x,y) -> {
