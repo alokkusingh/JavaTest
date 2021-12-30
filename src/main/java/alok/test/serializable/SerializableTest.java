@@ -9,7 +9,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-class Base  {
+class Base {
 	public int x;
 	
 	Base() {
@@ -43,12 +43,14 @@ public class SerializableTest {
 		File file = new File("SerializableTest.file");
 		
 		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file));
-		oos.writeObject(new Derive(10));
+		Base obj = new Derive(10);
+		System.out.println(obj.x);
+		oos.writeObject(obj);
 		oos.close();
 		
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
 		
-		Base obj = (Derive) ois.readObject();
+		obj = (Derive) ois.readObject();
 		
 		System.out.println(obj.x);
 		
