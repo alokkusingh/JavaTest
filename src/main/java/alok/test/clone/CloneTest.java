@@ -47,8 +47,8 @@ public class CloneTest {
 		
 		Derive cloned = d.clone();
 		cloned.setX(20);
-		System.out.println(cloned);
-		System.out.println(d);
+		System.out.println("Original: " + d);
+		System.out.println("Cloned: " + cloned);
 	}
 	
 }
