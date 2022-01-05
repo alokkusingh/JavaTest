@@ -1,21 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Œ„é©
-D
-java:S2140"")Use "java.util.Random.nextInt()" instead.(•ºŞşÿÿÿÿ
-\
-java:S2142&"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-M	java:S106*"9Replace this use of System.out or System.err by a logger.(´ª„
-N	java:S106<"9Replace this use of System.out or System.err by a logger.(ª«¸Œ
-?
-java:S2140?")Use "java.util.Random.nextInt()" instead.(÷±É¬
-N	java:S106C"9Replace this use of System.out or System.err by a logger.(î‰Ã
-t
-java:S1171R"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
-\
-java:S2142u"FEither re-interrupt this method or rethrow the "InterruptedException".(üŸ´Â
-S	java:S106t"9Replace this use of System.out or System.err by a logger.(Ô²·Ìşÿÿÿÿ
-M
-java:S1135v"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-S	java:S106z"9Replace this use of System.out or System.err by a logger.(ñáÍìşÿÿÿÿ
-O	java:S106"9Replace this use of System.out or System.err by a logger.(Î“ƒ
-T	java:S106‘"9Replace this use of System.out or System.err by a logger.(Ã·ä×øÿÿÿÿ

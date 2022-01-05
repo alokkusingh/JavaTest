@@ -1,16 +1,0 @@
-
-C
-java:S1172"(Remove this unused method parameter "x".(„¦±ıÿÿÿÿ
-h
-java:S1104"MMake x a static final constant or non-public and provide accessors if needed.(±Šõ¶ûÿÿÿÿ
-j
-java:S20951"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¯ôúÿÿÿÿ
-S	java:S1065"9Replace this use of System.out or System.err by a logger.(òê·½ùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(²æ¡“üÿÿÿÿ
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(×±ı¤ÿÿÿÿÿ
-k
-java:S2095-"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ŒÄóúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(çîÿİ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ş™“ışÿÿÿÿ
-“
-java:S1130*"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ŞÒ‡ãüÿÿÿÿ

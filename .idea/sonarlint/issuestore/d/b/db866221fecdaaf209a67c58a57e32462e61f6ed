@@ -1,12 +1,0 @@
-
-?
-java:S2140")Use "java.util.Random.nextInt()" instead.(°÷Ä«
-\
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
->	java:S108")Either remove or fill this block of code.(ä ¹€
-S	java:S106"9Replace this use of System.out or System.err by a logger.(…İÚ®ÿÿÿÿÿ
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø·±€
->
-java:S5164"!Call "remove()" on "threadLocal".(îíù8Á¸î–Ú/
-X	java:S125"<This block of commented-out lines of code should be removed.(ÃáØÄ8Á¸î–Ú/

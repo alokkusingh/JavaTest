@@ -1,13 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(†ƒ­Í
-Q	java:S125"<This block of commented-out lines of code should be removed.(íùÙ 
-S
-java:S1854"8Remove this useless assignment to local variable "base".(Á¼µ÷ûÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(è×œ÷ùÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(„À¤Ó
-D
-java:S1481")Remove this unused "base" local variable.(Á¼µ÷ûÿÿÿÿ
-G
-java:S1068"1Remove this unused "privateIntVar" private field.(‰‹øÅ
-O
-java:S1068"4Remove this unused "privateStaticInt" private field.(õ‚Ã²üÿÿÿÿ

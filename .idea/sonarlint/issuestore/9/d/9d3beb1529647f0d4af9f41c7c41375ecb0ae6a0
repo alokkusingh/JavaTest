@@ -1,17 +1,0 @@
-
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÌû¤
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ®ûÃøÿÿÿÿ
-@
-java:S5411"*Use the primitive boolean expression here.(ðâ‡Ô
-Q
-java:S1854
-"6Remove this useless assignment to local variable "sc".(ðÛ²¸øÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ÒÕž±þÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÛÂƒþÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ðâ‡Ô
-N	java:S106"9Replace this use of System.out or System.err by a logger.(©˜¬¤
-\
-java:S1126/"AReplace this if-then-else statement by a single return statement.(ô®ÿ›ùÿÿÿÿ
-B
-java:S1481
-"'Remove this unused "sc" local variable.(ðÛ²¸øÿÿÿÿ

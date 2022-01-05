@@ -1,9 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ó™öÃ
-]
-java:S3973"GUse indentation to denote the code conditionally executed by this "if".(ÒÇöä
-a
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(¸Ûž’ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(„ç¤“ùÿÿÿÿ
-K
-java:S2446"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ
