@@ -1,15 +1,4 @@
 bin
 target
 *.class
-.idea
-.idea/workspace.xml
-.idea/sonarlint/issuestore/3/b/3ba28bcbde949aba7efaf6f480328ba77a462276
-.idea/workspace.xml
-.idea/sonarlint/issuestore/3/c/3cc8daa08d1ef1ee5fa818fb0ac5e438ab76dcc7
-.idea/sonarlint/issuestore/7/5/755c6c1b036072491785fb15e10b2c276a9920b1
-.idea/sonarlint/issuestore/9/0/90cbe97e746fd0fe783c0ae51621791d3eeae1ca
-.idea/sonarlint/issuestore/b/7/b78dfa245b38582bb4b5a645760c505a7cc1b174
-.idea/sonarlint/issuestore/b/f/bfcf657aba820bec96b8e7f9aafc0363e20471b6
-.idea/sonarlint/issuestore/c/1/c1bee09633e56f31af8c8393558ded126432dd67
-.idea/sonarlint/issuestore/d/9/d97a59a5e69eb15396073cb483363ce6d7ead624
-.idea/sonarlint/issuestore/index.pb
+.idea/
