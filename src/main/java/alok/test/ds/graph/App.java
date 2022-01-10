@@ -8,27 +8,48 @@ public class App {
 
         Graph<Integer> graph = new Graph<>();
         graph.addEdge(1, 2);
-        System.out.println("Edge Size: " + graph.getEdgeCount() + ", Vertex Count: " + graph.getVertexCount());
         graph.addEdge(1, 3);
-        System.out.println("Edge Size: " + graph.getEdgeCount() + ", Vertex Count: " + graph.getVertexCount());
         graph.addEdge(2, 3);
-        System.out.println("Edge Size: " + graph.getEdgeCount() + ", Vertex Count: " + graph.getVertexCount());
         graph.addEdge(3, 4);
-        System.out.println("Edge Size: " + graph.getEdgeCount() + ", Vertex Count: " + graph.getVertexCount());
         graph.addEdge(2, 4);
-        System.out.println("Edge Size: " + graph.getEdgeCount() + ", Vertex Count: " + graph.getVertexCount());
 
         graph.addEdges(Arrays.asList(
                 graph.new Edge(4,5),
                 graph.new Edge(4,6),
                 graph.new Edge(5,6),
                 graph.new Edge(5,7),
-                graph.new Edge( 6,7)
+                graph.new Edge( 6,7),
+                graph.new Edge( 8,9)
         ));
         System.out.println("Edge Size: " + graph.getEdgeCount() + ", Vertex Count: " + graph.getVertexCount());
 
         System.out.println(graph);
 
-        Graphs.bfsTraversal(graph, 2, 4);
+        System.out.println("BFS Traversal from 1: ");
+        Graphs.bfsTraversal(graph, 1);
+        System.out.println("DFS Traversal from 1: ");
+        Graphs.dfsTraversal(graph, 1);
+
+        System.out.println("BFS Traversal from 8: ");
+        Graphs.bfsTraversal(graph, 8);
+        System.out.println("DFS Traversal from 8: ");
+        Graphs.dfsTraversal(graph, 8);
+
+        System.out.println("BFS Traversal from 3: ");
+        Graphs.bfsTraversal(graph, 3);
+        System.out.println("DFS Traversal from 3: ");
+        Graphs.dfsTraversal(graph, 3);
+
+        System.out.println("Has path between 2 and 4: " + Graphs.hasPathBfs(graph, 2, 4));
+        System.out.println("Has path between 2 and 4: " + Graphs.hasPathDfs(graph, 2, 4));
+
+        System.out.println("Has path between 2 and 1: " + Graphs.hasPathBfs(graph, 2, 1));
+        System.out.println("Has path between 2 and 1: " + Graphs.hasPathDfs(graph, 2, 1));
+
+        System.out.println("Has path between 1 and 7: " + Graphs.hasPathBfs(graph, 1, 7));
+        System.out.println("Has path between 1 and 7: " + Graphs.hasPathDfs(graph, 1, 7));
+
+        System.out.println("Has path between 1 and 9: " + Graphs.hasPathBfs(graph, 1, 9));
+        System.out.println("Has path between 1 and 9: " + Graphs.hasPathDfs(graph, 1, 9));
     }
 }

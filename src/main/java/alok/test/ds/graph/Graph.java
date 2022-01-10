@@ -44,6 +44,10 @@ public class Graph<T> {
         }
     }
 
+    public List<T> getEdges(T current) {
+        return map.get(current);
+    }
+
     public int getVertexCount() {
         return map.keySet().size();
     }
