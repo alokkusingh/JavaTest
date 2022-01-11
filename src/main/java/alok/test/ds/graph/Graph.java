@@ -1,9 +1,6 @@
 package alok.test.ds.graph;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Graph<T> {
 
@@ -44,8 +41,12 @@ public class Graph<T> {
         }
     }
 
-    public List<T> getEdges(T current) {
+    public List<T> getAdjEdges(T current) {
         return map.get(current);
+    }
+
+    public Set<T> getAllNodes() {
+        return map.keySet();
     }
 
     public int getVertexCount() {
@@ -66,16 +67,16 @@ public class Graph<T> {
         return edgeCount;
     }
 
-    // Prints the adjancency list of each vertex.
+    // Prints the adjacency list of each vertex.
     @Override
     public String toString()
     {
         StringBuilder builder = new StringBuilder();
 
         for (T v : map.keySet()) {
-            builder.append(v.toString() + ": ");
+            builder.append(v.toString()).append(": ");
             for (T w : map.get(v)) {
-                builder.append(w.toString() + " ");
+                builder.append(w.toString()).append(" ");
             }
             builder.append("\n");
         }
@@ -108,7 +109,5 @@ public class Graph<T> {
         public void setT(T t) {
             this.t = t;
         }
-
     }
-
 }

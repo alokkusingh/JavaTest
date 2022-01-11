@@ -1,11 +1,10 @@
 package alok.test.ds.graph;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 public class Graphs {
+
+    private Graphs() {}
 
     public static <T> void bfsTraversal(Graph<T> graph, T s) {
 
@@ -14,25 +13,25 @@ public class Graphs {
 
         queue.add(s);
 
-        while (queue.size() > 0) {
+        while (!queue.isEmpty()) {
             T current = queue.poll();
 
             if (visitedNodes.contains(current))
                 continue;
 
             visitedNodes.add(current);
-            System.out.println(current);
+            System.out.print(current + " -> ");
 
-            for (T adj: graph.getEdges(current)) {
+            for (T adj: graph.getAdjEdges(current)) {
                queue.add(adj);
             }
         }
-
-
+        System.out.println();
     }
 
     public static <T> void dfsTraversal(Graph<T> graph, T s) {
         dfsTraversal(graph, s, new HashSet<>());
+        System.out.println();
     }
 
     private static <T> void dfsTraversal(Graph<T> graph, T s, Set<T> visitedSet) {
@@ -40,11 +39,11 @@ public class Graphs {
         if (visitedSet.contains(s))
             return;
 
-        System.out.println(s);
+        System.out.print(s + " -> ");
 
         visitedSet.add(s);
 
-        for (T adj: graph.getEdges(s)) {
+        for (T adj: graph.getAdjEdges(s)) {
             dfsTraversal(graph, adj, visitedSet);
         }
     }
@@ -55,14 +54,14 @@ public class Graphs {
         Set<T> visited = new HashSet<>();
 
         queue.add(s);
-        while (queue.size() > 0) {
+        while (!queue.isEmpty()) {
             T current = queue.poll();
             if (visited.contains(current))
                 continue;
 
             visited.add(current);
 
-            for (T adj: graph.getEdges(current)) {
+            for (T adj: graph.getAdjEdges(current)) {
                 if (adj.equals(t)) {
                     return true;
                 }
@@ -89,12 +88,46 @@ public class Graphs {
             return true;
         }
 
-        for (T adj: graph.getEdges(s)) {
+        for (T adj: graph.getAdjEdges(s)) {
             if (hasPathDfs(graph, adj, t, visitedSet)) {
                 return true;
             }
         }
 
         return false;
+    }
+
+    public static <T> int largestConnectedNodesSize(Graph<T> graph) {
+        int maxsize = 0;
+        Set<T> visitedSet = new HashSet<>();
+
+        for (T v: graph.getAllNodes()) {
+            int size = exploreSize(graph, v, visitedSet);
+            if (size > maxsize)
+               maxsize = size;
+        }
+
+        return maxsize;
+    }
+
+    private static <T> int exploreSize(Graph<T> graph, T v, Set<T> visitedSet) {
+        if (visitedSet.contains(v))
+            return 0;
+
+        visitedSet.add(v);
+
+        int size = 1;
+
+        List<Integer> nodeSizes = new ArrayList<>(graph.getAdjEdges(v).size());
+        for (T adj: graph.getAdjEdges(v)) {
+            nodeSizes.add(exploreSize(graph, adj, visitedSet));
+        }
+        int maxSize = 0;
+        for (int nodeSize: nodeSizes) {
+            if (nodeSize > maxSize)
+                maxSize = nodeSize;
+        }
+
+        return size + maxSize;
     }
 }

@@ -51,5 +51,28 @@ public class App {
 
         System.out.println("Has path between 1 and 9: " + Graphs.hasPathBfs(graph, 1, 9));
         System.out.println("Has path between 1 and 9: " + Graphs.hasPathDfs(graph, 1, 9));
+
+        //          (2) -> (3) -> (5)
+        // (1) <                      (6)
+        //              (4) >
+        Graph<Integer> graph2 = new Graph<>();
+        graph2.addEdges(Arrays.asList(
+                graph2.new Edge(1,2),
+                graph2.new Edge(1,4),
+                graph2.new Edge(2,3),
+                graph2.new Edge(3,5),
+                graph2.new Edge(5,6),
+                graph2.new Edge( 4,6)
+        ));
+        System.out.println(graph2);
+        System.out.println("Has path between 1 and 5: " + Graphs.hasPathBfs(graph2, 1, 5));
+        System.out.println("Has path between 1 and 5: " + Graphs.hasPathDfs(graph2, 1, 5));
+        System.out.println("Has path between 4 and 5: " + Graphs.hasPathBfs(graph2, 4, 5));
+        System.out.println("Has path between 4 and 5: " + Graphs.hasPathDfs(graph2, 4, 5));
+        System.out.println("BFS Traversal from 1: ");
+        Graphs.bfsTraversal(graph2, 1);
+        System.out.println("DFS Traversal from 1: ");
+        Graphs.dfsTraversal(graph2, 1);
+        System.out.println("Largest connected node size: " + Graphs.largestConnectedNodesSize(graph2));
     }
 }
