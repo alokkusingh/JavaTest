@@ -75,5 +75,22 @@ public class App {
         Graphs.dfsTraversal(graph2, 1);
         System.out.println("Largest connected node size: " + Graphs.largestConnectedNodesSize(graph2));
         System.out.println("Shortest connected node size: " + Graphs.shortestPathSize(graph2, 1, 6));
+
+
+        GreedGraph<Integer> greedGraph = new GreedGraph<>(
+                new Integer[][] {
+                        {0,1,0,0,1,0},
+                        {1,1,0,0,1,0},
+                        {0,1,0,0,0,0},
+                        {0,0,0,1,1,0},
+                        {0,1,0,1,1,0},
+                        {0,0,0,0,0,0},
+                        {0,0,0,0,0,0}
+                },
+                1
+        );
+        System.out.println(greedGraph);
+        System.out.println("Number of island: " + greedGraph.findNumberOfIseland());
+
     }
 }
