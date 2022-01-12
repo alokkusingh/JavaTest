@@ -130,4 +130,36 @@ public class Graphs {
 
         return size + maxSize;
     }
+
+    public static <T> int shortestPathSize(Graph<T> graph, T start, T end) {
+        // BFS has to be used
+        // BFS traverse all the adg node first then goes to next level for adj
+        // This explores all the possibility from each node rather going in onde direction
+
+        Set<T> visitedSet = new HashSet<>();
+        Queue<T> nodeQueue = new LinkedList<>();
+        Queue<Integer> sizeQueue = new LinkedList<>();
+        nodeQueue.add(start);
+        sizeQueue.add(0);
+
+        while (!nodeQueue.isEmpty()) {
+            T current = nodeQueue.poll();
+            int size = sizeQueue.poll();
+            if (visitedSet.contains(current))
+                continue;
+
+            visitedSet.add(current);
+
+            if (current.equals(end))
+                return size;
+
+            for (T adj: graph.getAdjEdges(current)) {
+                nodeQueue.add(adj);
+                sizeQueue.add(size + 1);
+            }
+        }
+
+        // no such path found
+        return -1;
+    }
 }

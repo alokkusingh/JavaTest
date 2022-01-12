@@ -2,7 +2,7 @@ package alok.test.ds.graph;
 
 import java.util.*;
 
-public class Graph<T> {
+public abstract class Graph<T> {
 
     private final Map<T, List<T>> map = new HashMap<>();
     private final boolean bidirectional;
@@ -69,8 +69,7 @@ public class Graph<T> {
 
     // Prints the adjacency list of each vertex.
     @Override
-    public String toString()
-    {
+    public String toString() {
         StringBuilder builder = new StringBuilder();
 
         for (T v : map.keySet()) {

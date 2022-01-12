@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        Graph<Integer> graph = new Graph<>();
+        Graph<Integer> graph = new UnidirectionalGraph<>();
         graph.addEdge(1, 2);
         graph.addEdge(1, 3);
         graph.addEdge(2, 3);
@@ -55,7 +55,7 @@ public class App {
         //          (2) -> (3) -> (5)
         // (1) <                      (6)
         //              (4) >
-        Graph<Integer> graph2 = new Graph<>();
+        Graph<Integer> graph2 = new UnidirectionalGraph();
         graph2.addEdges(Arrays.asList(
                 graph2.new Edge(1,2),
                 graph2.new Edge(1,4),
@@ -74,5 +74,6 @@ public class App {
         System.out.println("DFS Traversal from 1: ");
         Graphs.dfsTraversal(graph2, 1);
         System.out.println("Largest connected node size: " + Graphs.largestConnectedNodesSize(graph2));
+        System.out.println("Shortest connected node size: " + Graphs.shortestPathSize(graph2, 1, 6));
     }
 }
