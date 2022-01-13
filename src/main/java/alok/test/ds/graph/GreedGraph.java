@@ -38,20 +38,21 @@ public class GreedGraph<T> {
 
         for (int i = 0; i < numberOfRows; ++i) {
             for (int j = 0; j < numberOfCols; ++j) {
-                count += exploreGrid(i, j, visitedGrid);
+                if (exploreGrid(i, j, visitedGrid))
+                    ++count;
             }
         }
 
         return count;
     }
 
-    private int exploreGrid(int i, int j, Set<String> visitedGrid) {
+    private boolean exploreGrid(int i, int j, Set<String> visitedGrid) {
         if (i < 0 || i >= numberOfRows || j < 0 || j >= numberOfCols)
-            return 0;
+            return false;
 
         String gridIndex = i + "," + j;
         if (visitedGrid.contains(gridIndex) || !matrix[i][j].equals(landValue)) {
-            return 0;
+            return false;
         }
 
         visitedGrid.add(gridIndex);
@@ -61,6 +62,43 @@ public class GreedGraph<T> {
         exploreGrid(i,j-1, visitedGrid);
         exploreGrid(i,j+1, visitedGrid);
 
-        return 1;
+        return true;
     }
+
+    public int findSmallestIseland() {
+        Set<String> visitedGrid = new HashSet<>();
+
+        int smallestSize = 0;
+
+        for (int i = 0; i < numberOfRows; ++i) {
+            for (int j = 0; j < numberOfCols; ++j) {
+                int size = exploreSize(i, j, visitedGrid);
+                if (smallestSize == 0 || (size > 0 && size < smallestSize))
+                    smallestSize = size;
+            }
+        }
+
+        return smallestSize;
+    }
+
+    private int exploreSize(int i, int j, Set<String> visitedGrid) {
+        if (i < 0 || i >= numberOfRows || j < 0 || j >= numberOfCols)
+            return 0;
+
+        String gridIndex = i + "," + j;
+        if (visitedGrid.contains(gridIndex) || !matrix[i][j].equals(landValue)) {
+            return 0;
+        }
+
+        int size = 1;
+        visitedGrid.add(gridIndex);
+        // now mark all the connected node with land as visited node
+        size += exploreSize(i-1,j, visitedGrid);
+        size += exploreSize(i+1,j, visitedGrid);
+        size += exploreSize(i,j-1, visitedGrid);
+        size += exploreSize(i,j+1, visitedGrid);
+
+        return size;
+    }
+
 }

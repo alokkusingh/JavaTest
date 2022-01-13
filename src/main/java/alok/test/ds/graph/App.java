@@ -84,13 +84,14 @@ public class App {
                         {0,1,0,0,0,0},
                         {0,0,0,1,1,0},
                         {0,1,0,1,1,0},
-                        {0,0,0,0,0,0},
+                        {0,1,0,0,0,0},
                         {0,0,0,0,0,0}
                 },
                 1
         );
         System.out.println(greedGraph);
         System.out.println("Number of island: " + greedGraph.findNumberOfIseland());
+        System.out.println("Smallest island size: " + greedGraph.findSmallestIseland());
 
     }
 }
