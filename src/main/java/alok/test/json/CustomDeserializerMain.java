@@ -8,15 +8,19 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 public class CustomDeserializerMain {
 
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) throws JsonProcessingException, NoSuchAlgorithmException {
 
         String jsonString = "[\n" +
                 "   {\n" +
@@ -68,6 +72,12 @@ public class CustomDeserializerMain {
         System.out.println(list.get(0) == list.get(2));
 
         System.out.println(list);
+
+
+        System.out.println( DigestUtils.sha512Hex("Alok Singh"));
+        System.out.println( DigestUtils.sha512Hex("Alok Singh"));
+        System.out.println( DigestUtils.sha512Hex("Alok Singh"));
+        System.out.println( DigestUtils.sha512Hex("Alok  Singh"));
     }
 }
 
