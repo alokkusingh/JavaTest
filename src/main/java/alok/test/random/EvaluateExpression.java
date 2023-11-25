@@ -25,7 +25,7 @@ public class EvaluateExpression {
     public static boolean evalExpression(String expression, Double value) {
 
         try {
-            synchronized (Object.class) {
+            synchronized (EvaluateExpression.class) {
                 engine.put("value", value);
                 return (boolean) engine.eval(expression);
             }
